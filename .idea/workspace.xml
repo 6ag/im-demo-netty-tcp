@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20054ca9-0268-4a1f-aeea-0eade2fc59fd" name="Default Changelist" comment="" />
+    <list default="true" id="20054ca9-0268-4a1f-aeea-0eade2fc59fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/attribute/Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/Client$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/ConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/ConsoleCommandManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/CreateGroupConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/JoinGroupConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/ListGroupMembersConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/LoginConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/LogoutConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/QuitGroupConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/SendToGroupConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/console/SendToUserConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/CreateGroupResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/GroupMessageResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/HeartBeatResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/HeartBeatTimerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/JoinGroupResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/ListGroupMembersResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/LoginResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/LogoutResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/client/handler/MessageResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/codec/PacketCodecHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/codec/PacketDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/codec/PacketEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/codec/Spliter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/handler/IMIdleStateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/Packet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/PacketCodeC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/CreateGroupRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/GroupMessageRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/HeartBeatRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/JoinGroupRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/ListGroupMembersRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/LoginRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/LogoutRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/MessageRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/request/QuitGroupRequestPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/CreateGroupResponsePack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/GroupMessageResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/HeartBeatResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/JoinGroupResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/ListGroupMembersResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/LoginResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/LogoutResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/MessageResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/protocol/response/QuitGroupResponsePacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/serialize/Serializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/serialize/SerializerAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/serialize/impl/JSONSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/AuthHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/CreateGroupRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/GroupMessageRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/HeartBeatRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/JoinGroupRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/ListGroupMembersRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/LoginRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/LogoutRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/MessageRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/server/handler/QuitGroupRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/session/Session.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/util/IDUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kefu/netty/util/SessionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kefu/netty/PacketCodeCTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +89,29 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kefu/netty/client/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="40">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/kefu/netty/PacketCodeCTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -54,6 +134,9 @@
     <option name="y" value="23" />
     <option name="width" value="1753" />
     <option name="height" value="1344" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -93,15 +176,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="netty-tcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -209,28 +302,22 @@
       <option name="presentableId" value="Default" />
       <updated>1555859260206</updated>
       <workItem from="1555859263677" duration="330000" />
+      <workItem from="1555859837398" duration="294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330000" />
+    <option name="totallyTimeSpent" value="624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="807" y="23" width="1753" height="1344" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24985303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297342" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297342" />
@@ -238,16 +325,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Jenkins" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3297342" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Jenkins" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Mongo Explorer" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,17 +370,38 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kefu/netty/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kefu/netty/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kefu/netty/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <folding>
+            <element signature="e#2549#4182#0" expanded="true" />
+            <element signature="e#4181#4182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
